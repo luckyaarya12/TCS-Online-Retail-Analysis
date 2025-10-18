@@ -20,7 +20,8 @@ The following checks were implemented in Power Query to clean the data before lo
 ## Feature Engineering
 ⦁	Date Conversion: Ensured the [InvoiceDate] column was correctly set as a Date/Time type.
 
-⦁	Numeric Conversion:Confirmed [Quantity] and [UnitPrice] were set to Decimal Number type.
+⦁	Numeric Conversion: Confirmed [Quantity] and [UnitPrice] were set to Decimal Number type.
+
 
 
 
