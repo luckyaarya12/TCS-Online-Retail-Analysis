@@ -1,0 +1,12 @@
+CORE FINANCIAL MEASURES (DAX):-
+ 
+REVENUE MEASURE
+   Rationale: Calculates total sales revenue based on data that has been pre-cleaned in Power Query 
+   (Quantity > 0 and Cancelled Orders removed), ensuring high integrity for executive reports.
+   This measure is used to drive the Monthly Revenue Trends visual on the dashboard.
+    
+Revenue = SUMX('Online Retail', 'Online Retail'[Quantity] * 'Online Retail'[UnitPrice])
+
+TOTAL CLEANED ORDERS
+   Rationale: Counts all rows in the cleaned 'Online Retail' table to represent total valid transactions.
+   Total Cleaned Orders = COUNTROWS('Online Retail')
