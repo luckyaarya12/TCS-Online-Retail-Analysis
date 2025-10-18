@@ -13,7 +13,7 @@ The following checks were implemented in Power Query to clean the data before lo
 
 ⦁	Rationale: This step removes entries with a unit price of zero or less, which are typically data input errors, as specified in the task.
 
-⦁	Removed Blank Customer IDs:** Applied a filter to exclude any rows where the [CustomerID] was blank.
+⦁	Removed Blank Customer IDs: Applied a filter to exclude any rows where the [CustomerID] was blank.
 
 ⦁	Rationale: This ensures all transactions used in customer-based analysis (like identifying the Top 10 Customers) are tied to a valid customer, supporting the requirements for Question 3.
 	
@@ -21,5 +21,6 @@ The following checks were implemented in Power Query to clean the data before lo
 ⦁	Date Conversion: Ensured the [InvoiceDate] column was correctly set as a Date/Time type.
 
 ⦁	Numeric Conversion:Confirmed [Quantity] and [UnitPrice] were set to Decimal Number type.
+
 
 
