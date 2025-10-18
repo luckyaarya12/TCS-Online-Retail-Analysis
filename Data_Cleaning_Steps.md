@@ -22,3 +22,4 @@ The following checks were implemented in Power Query to clean the data before lo
 
 ⦁	Numeric Conversion:Confirmed [Quantity] and [UnitPrice] were set to Decimal Number type.
 
+
